@@ -1,0 +1,20 @@
+[project]
+name = "currency-converter"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "focarica",email = "a.vinicius0042@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "requests-html (>=0.10.0,<0.11.0)",
+    "lxml-html-clean (>=0.4.1,<0.5.0)",
+    "beautifulsoup4 (>=4.12.3,<5.0.0)",
+    "pyppeteer (>=2.0.0,<3.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
