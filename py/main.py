@@ -16,7 +16,6 @@ def convert(
     
     scraper = Scraper()
     
-    # print(scraper.getCurrency([amount, base, to]))
     return scraper.getCurrency([amount, base, to])
     
 if __name__ == "__main__":
