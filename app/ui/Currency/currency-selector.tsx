@@ -10,7 +10,7 @@ export default function({ selectedCurrency, onCurrencyChange }: CurrencySelector
         <select value={selectedCurrency} onChange={(e) => onCurrencyChange(e.target.value)}>
             {currencies.map((currency) => (
                 <option key={currency.name} value={currency.name}>
-                    {currency.name}
+                   {currency.flag} <span className="text-black">{currency.name}</span> - {currency.fullName}
                 </option>
             ))}
         </select>

@@ -1,25 +1,33 @@
 const currencies = [
-    { name: "USD", symbol: "$" },   // Dólar Americano
-    { name: "BRL", symbol: "R$" },  // Real Brasileiro
-    { name: "EUR", symbol: "€" },   // Euro
-    { name: "GBP", symbol: "£" },   // Libra Esterlina
-    { name: "JPY", symbol: "¥" },   // Iene Japonês
-    { name: "CNY", symbol: "¥" },   // Yuan Chinês
-    { name: "AUD", symbol: "A$" },  // Dólar Australiano
-    { name: "CAD", symbol: "C$" },  // Dólar Canadense
-    { name: "CHF", symbol: "CHF" }, // Franco Suíço
-    { name: "INR", symbol: "₹" },   // Rúpia Indiana
-    { name: "KRW", symbol: "₩" },   // Won Sul-Coreano
-    { name: "MXN", symbol: "MX$" }, // Peso Mexicano
-    { name: "RUB", symbol: "₽" },   // Rublo Russo
-    { name: "ZAR", symbol: "R" },   // Rand Sul-Africano
-    { name: "TRY", symbol: "₺" },   // Lira Turca
-    { name: "SGD", symbol: "S$" },  // Dólar de Cingapura
-    { name: "HKD", symbol: "HK$" }, // Dólar de Hong Kong
-    { name: "SEK", symbol: "kr" },  // Coroa Sueca
-    { name: "NOK", symbol: "kr" },  // Coroa Norueguesa
-    { name: "NZD", symbol: "NZ$" }  // Dólar Neozelandês
+    { name: "USD", symbol: "$", flag: "🇺🇸", fullName: "Dólar Americano" },
+    { name: "BRL", symbol: "R$", flag: "🇧🇷", fullName: "Real Brasileiro" },
+    { name: "EUR", symbol: "€", flag: "🇪🇺", fullName: "Euro" },
+    { name: "GBP", symbol: "£", flag: "🇬🇧", fullName: "Libra Esterlina" },
+    { name: "JPY", symbol: "¥", flag: "🇯🇵", fullName: "Iene Japonês" },
+    { name: "CNY", symbol: "¥", flag: "🇨🇳", fullName: "Yuan Chinês" },
+    { name: "AUD", symbol: "A$", flag: "🇦🇺", fullName: "Dólar Australiano" },
+    { name: "CAD", symbol: "C$", flag: "🇨🇦", fullName: "Dólar Canadense" },
+    { name: "CHF", symbol: "CHF", flag: "🇨🇭", fullName: "Franco Suíço" },
+    { name: "INR", symbol: "₹", flag: "🇮🇳", fullName: "Rúpia Indiana" },
+    { name: "KRW", symbol: "₩", flag: "🇰🇷", fullName: "Won Sul-Coreano" },
+    { name: "MXN", symbol: "MX$", flag: "🇲🇽", fullName: "Peso Mexicano" },
+    { name: "RUB", symbol: "₽", flag: "🇷🇺", fullName: "Rublo Russo" },
+    { name: "ZAR", symbol: "R", flag: "🇿🇦", fullName: "Rand Sul-Africano" },
+    { name: "TRY", symbol: "₺", flag: "🇹🇷", fullName: "Lira Turca" },
+    { name: "SGD", symbol: "S$", flag: "🇸🇬", fullName: "Dólar de Cingapura" },
+    { name: "HKD", symbol: "HK$", flag: "🇭🇰", fullName: "Dólar de Hong Kong" },
+    { name: "SEK", symbol: "kr", flag: "🇸🇪", fullName: "Coroa Sueca" },
+    { name: "NOK", symbol: "kr", flag: "🇳🇴", fullName: "Coroa Norueguesa" },
+    { name: "NZD", symbol: "NZ$", flag: "🇳🇿", fullName: "Dólar Neozelandês" },
+    { name: "ARS", symbol: "AR$", flag: "🇦🇷", fullName: "Peso Argentino" },
+    { name: "CLP", symbol: "CLP$", flag: "🇨🇱", fullName: "Peso Chileno" },
+    { name: "COP", symbol: "COP$", flag: "🇨🇴", fullName: "Peso Colombiano" },
+    { name: "EGP", symbol: "E£", flag: "🇪🇬", fullName: "Libra Egípcia" },
+    { name: "THB", symbol: "฿", flag: "🇹🇭", fullName: "Baht Tailandês" },
+    { name: "AED", symbol: "د.إ", flag: "🇦🇪", fullName: "Dirham dos Emirados Árabes Unidos" },
+    { name: "IDR", symbol: "Rp", flag: "🇮🇩", fullName: "Rupia Indonésia" },
+    { name: "PHP", symbol: "₱", flag: "🇵🇭", fullName: "Peso Filipino" },
+    { name: "MYR", symbol: "RM", flag: "🇲🇾", fullName: "Ringgit Malaio" },
 ];
 
-
-export { currencies }
+export { currencies };
