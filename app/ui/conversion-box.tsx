@@ -19,8 +19,8 @@ export default function ConversionBox() {
   const selectedCurrencyObj = currencies.find(currency => currency.name === selectedBaseCurrency)
 
   return (
-    <div className='relative w-full max-w-screen-2xl p-4 md:p-6 overflow-x-hidden'>
-      <div className="flex flex-col lg:flex-row gap-4 justify-center items-center">
+    <div className='relative w-full max-w-screen-2xl h-1/2 max-h-screen p-4 md:p-6 overflow-x-hidden flex justify-center items-center'>
+      <div className="flex flex-col lg:flex-row gap-4">
         <CurrencyBoxs>
           <label className='text-sm'>Amount</label>
           <span className="flex items-center">
